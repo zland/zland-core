@@ -1,0 +1,15 @@
+{
+  "name": "Core",
+  "resolveAlias": "core",
+  "author": "Florian Biewald",
+  "routes": [
+    {
+      "path": "gps",
+      "handler": "components/GpsWaitingModal"
+    },
+    {
+      "path": "continue",
+      "handler": "components/ContinueDialog"
+    }
+  ]
+}
